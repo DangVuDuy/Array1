@@ -17,6 +17,9 @@
     //--------- From this line, please customize your menu data -----------
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                     @{TITLE: @"Query Array", CLASS: @"DemoFootball"},
+                                    @{TITLE: @"C Array NS Array", CLASS: @"DemoCArrayNSArray"},
+                                    @{TITLE: @"Callelement", CLASS: @"DemoCallElement"},
+
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Inter B", CLASS: @"InterB"}
@@ -26,8 +29,8 @@
                              ]};
     
     mainScreen.menu = @[basic, intermediate, advanced];
-    mainScreen.title = @"Bootstrap App";
-    mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
+    mainScreen.title = @"Objective C";
+    mainScreen.about = @"This is demo Array";
     //--------- End of customization -----------
     UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController: mainScreen];
     

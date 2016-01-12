@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB34750C1C295A5A005B0E27 /* DemoCallElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34750B1C295A5A005B0E27 /* DemoCallElement.m */; };
 		FB555C1F1C25010700DB71FA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB555C1E1C25010700DB71FA /* data.plist */; };
 		FB8537AA1C21BB0600DF0441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8537A91C21BB0600DF0441 /* main.m */; };
 		FB8537B51C21BB0600DF0441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8537B41C21BB0600DF0441 /* Assets.xcassets */; };
@@ -16,10 +17,13 @@
 		FB8537CA1C21BB5A00DF0441 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8537C41C21BB5A00DF0441 /* BootLogic.m */; };
 		FB8537CB1C21BB5A00DF0441 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8537C61C21BB5A00DF0441 /* AppDelegate.m */; };
 		FB8537CE1C21BBA000DF0441 /* DemoFootball.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8537CD1C21BBA000DF0441 /* DemoFootball.m */; };
+		FBBC1F691C2817970076D29D /* DemoCArrayNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC1F681C2817970076D29D /* DemoCArrayNSArray.m */; };
 		FBCFD4DA1C23B1F000411392 /* NSObject+DemoCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCFD4D91C23B1F000411392 /* NSObject+DemoCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB34750A1C295A5A005B0E27 /* DemoCallElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCallElement.h; sourceTree = "<group>"; };
+		FB34750B1C295A5A005B0E27 /* DemoCallElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCallElement.m; sourceTree = "<group>"; };
 		FB555C1E1C25010700DB71FA /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		FB8537A51C21BB0600DF0441 /* QueryArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueryArray.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8537A91C21BB0600DF0441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		FB8537C71C21BB5A00DF0441 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB8537CC1C21BBA000DF0441 /* DemoFootball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFootball.h; sourceTree = "<group>"; };
 		FB8537CD1C21BBA000DF0441 /* DemoFootball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFootball.m; sourceTree = "<group>"; };
+		FBBC1F671C2817970076D29D /* DemoCArrayNSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCArrayNSArray.h; sourceTree = "<group>"; };
+		FBBC1F681C2817970076D29D /* DemoCArrayNSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCArrayNSArray.m; sourceTree = "<group>"; };
 		FBCFD4D81C23B1F000411392 /* NSObject+DemoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DemoCategory.h"; sourceTree = "<group>"; };
 		FBCFD4D91C23B1F000411392 /* NSObject+DemoCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DemoCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +109,10 @@
 				FBCFD4D81C23B1F000411392 /* NSObject+DemoCategory.h */,
 				FBCFD4D91C23B1F000411392 /* NSObject+DemoCategory.m */,
 				FB555C1E1C25010700DB71FA /* data.plist */,
+				FBBC1F671C2817970076D29D /* DemoCArrayNSArray.h */,
+				FBBC1F681C2817970076D29D /* DemoCArrayNSArray.m */,
+				FB34750A1C295A5A005B0E27 /* DemoCallElement.h */,
+				FB34750B1C295A5A005B0E27 /* DemoCallElement.m */,
 			);
 			path = "Basic ";
 			sourceTree = "<group>";
@@ -181,8 +191,10 @@
 				FB8537CA1C21BB5A00DF0441 /* BootLogic.m in Sources */,
 				FB8537CE1C21BBA000DF0441 /* DemoFootball.m in Sources */,
 				FBCFD4DA1C23B1F000411392 /* NSObject+DemoCategory.m in Sources */,
+				FB34750C1C295A5A005B0E27 /* DemoCallElement.m in Sources */,
 				FB8537C81C21BB5A00DF0441 /* MainScreen.m in Sources */,
 				FB8537AA1C21BB0600DF0441 /* main.m in Sources */,
+				FBBC1F691C2817970076D29D /* DemoCArrayNSArray.m in Sources */,
 				FB8537C91C21BB5A00DF0441 /* ConsoleScreen.m in Sources */,
 				FB8537CB1C21BB5A00DF0441 /* AppDelegate.m in Sources */,
 			);
